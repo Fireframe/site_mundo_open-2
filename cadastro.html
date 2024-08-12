@@ -6,44 +6,10 @@
     <title>Inscreva-se - Site24x7</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="cadastro_login.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            margin-top: 50px;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f8f9fa;
-            font-family: "Montserrat", sans-serif;
-        }
-
-
-        .signup-container {
-            width: 100%;
-            max-width: 400px;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        .signup-container .form-group {
-            margin-bottom: 1rem;
-        }
-        .signup-container .form-check {
-            margin-bottom: 1rem;
-        }
-        .signup-container .btn {
-            width: 100%;
-        }
-        .signup-container .social-signin {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 1rem;
-        }
-    </style>
+    
 </head>
 <body>
 
@@ -54,7 +20,7 @@
     </header>
 
     <div class="signup-container">
-        <h2 class="text-center">Inscreva-se para 30 dias de teste grátis!</h2>
+        <h2 class="text-center">Inscreva-se Agora</h2>
         <form>
             <div class="form-group">
                 <label for="email">Email</label>
@@ -87,13 +53,26 @@
             <button class="btn btn-outline-primary"><i class="fab fa-linkedin-in"></i> LinkedIn</button>
         </div>
         <p class="text-center mt-3">Você está no BRASIL.</p>
-        <p class="text-center"><a href="#">Já tem uma conta? LOGIN</a></p>
+        <p class="text-center"><a href="login.html">Já tem uma conta? LOGIN</a></p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const terms = document.getElementById('terms').checked;
+
+    if (!email || !password || !terms) {
+        alert('Por favor, preencha todos os campos obrigatórios e aceite os termos.');
+        event.preventDefault();
+    }
+});
+
+    </script>
 </body>
 </html>
 

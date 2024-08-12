@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.signup-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #343a40;
+    text-align: center;
+}
+
+.signup-container .form-group label {
+    font-weight: 600;
+    color: #333;
+}
+
+.signup-container .form-group input {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.signup-container .form-check label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.signup-container .btn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.signup-container .btn-success {
+    background-color: #3b8686;
+    border-color: #3b8686;
+}
+
+.signup-container .btn-success:hover {
+    background-color: #306f6f;
+    transform: translateY(-2px);
+}
+
+.signup-container .social-signin {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.signup-container .social-signin .btn {
+    flex: 1;
+    margin: 0 5px;
+    font-size: 0.9rem;
+}
+
+.signup-container .social-signin .btn i {
+    margin-right: 5px;
+}
+
+.signup-container .text-center a {
+    color: #3b8686;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signup-container .text-center a:hover {
+    color: #306f6f;
+}
+
+
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .login-container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .login-container .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .login-container .form-check {
+            margin-bottom: 1rem;
+        }
+
+        .login-container .btn {
+            width: 100%;
+            background-color: #3b8686;
+            color: white;
+        }
+
+        .login-container .social-signin {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 1rem;
+        }
+
+        .login-container .social-signin button {
+            width: 48%;
+        }
+
+        .login-container .forgot-password {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .login-container .forgot-password a {
+            color: #3b8686;
+            text-decoration: none;
+        }
+
+        .login-container .forgot-password a:hover {
+            text-decoration: underline;
+        }
