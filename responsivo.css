@@ -1,0 +1,149 @@
+/* Responsividade */
+@media (max-width: 1200px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .pricing-section .pricing-card {
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    .pricing-section .pricing-card h3 {
+        font-size: 1.2em;
+    }
+
+    .pricing-section .pricing-card p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero {
+        padding: 80px 0;
+    }
+
+    .pricing-section .pricing-card {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .navbar-brand{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .pricing-section .pricing-card h3 {
+        font-size: 1em;
+    }
+
+    .pricing-section .pricing-card p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .btn {
+        margin: 5px 0;
+    }
+
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero h1 {
+        font-size: 1.8em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+    
+    .monitoring-solution .pricing-card {
+        display: none;
+    }
+
+    .features-overview .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    .build-resilient-cloud .card {
+        margin: 5px 0;
+    }
+
+    .pricing-section .pricing-card {
+        padding: 5px;
+        margin: 5px 0;
+    }
+
+    .pricing-section .pricing-card h3 {
+        font-size: 0.9em;
+    }
+
+    .pricing-section .pricing-card p {
+        font-size: 0.8em;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 0.8em;
+    }
+
+    .hero .btn {
+        font-size: 0.8em;
+        padding: 8px 15px;
+    }
+
+    .monitoring-solution .pricing-card {
+        margin: 5px 0;
+    }
+
+    .features-overview .col-md-4 {
+        margin-bottom: 15px;
+    }
+
+    .build-resilient-cloud .card {
+        margin: 2px 0;
+    }
+
+    .pricing-section .pricing-card {
+        padding: 3px;
+        margin: 3px 0;
+    }
+
+    .pricing-section .pricing-card h3 {
+        font-size: 0.8em;
+    }
+
+    .pricing-section .pricing-card p {
+        font-size: 0.7em;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 415px){
+    .navbar-brand{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+}

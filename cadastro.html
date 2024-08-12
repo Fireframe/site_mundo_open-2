@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscreva-se - Site24x7</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+            font-family: "Montserrat", sans-serif;
+        }
+
+
+        .signup-container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .signup-container .form-group {
+            margin-bottom: 1rem;
+        }
+        .signup-container .form-check {
+            margin-bottom: 1rem;
+        }
+        .signup-container .btn {
+            width: 100%;
+        }
+        .signup-container .social-signin {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header py-2 text-center">
+        <div class="container">
+            <img src="imgs/mundo open.png" alt="Logo" class="img-fluid mx-auto d-block" style="max-width: 150px;">
+        </div>
+    </header>
+
+    <div class="signup-container">
+        <h2 class="text-center">Inscreva-se para 30 dias de teste grátis!</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+            </div>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+            </div>
+            <div class="form-group">
+                <label for="phone">Número de Telefone (opcional)</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <select class="form-control" style="width: 80px;">
+                            <option value="+55">+55</option>
+                            <!-- Adicione outros códigos de país conforme necessário -->
+                        </select>
+                    </div>
+                    <input type="text" class="form-control" id="phone" placeholder="Número de Telefone">
+                </div>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="terms">
+                <label class="form-check-label" for="terms">Eu concordo com os <a href="#">Termos de Serviço</a> e <a href="#">Política de Privacidade</a></label>
+            </div>
+            <button type="submit" class="btn btn-success" style="background-color: #3b8686;">Inscreva-se</button>
+        </form>
+        <div class="social-signin">
+            <button class="btn btn-outline-primary"><i class="fab fa-google"></i> Google</button>
+            <button class="btn btn-outline-primary"><i class="fab fa-linkedin-in"></i> LinkedIn</button>
+        </div>
+        <p class="text-center mt-3">Você está no BRASIL.</p>
+        <p class="text-center"><a href="#">Já tem uma conta? LOGIN</a></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
+
+
+
+
+
